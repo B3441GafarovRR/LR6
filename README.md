@@ -24,47 +24,47 @@
     7  git log
     8  git checkout newBranch
     9  git log
-   10  git show
-   11  git checkout master
-   12  git pull origin master
-   13  git merge newBranch
-   14  git push
-   15  git checkout master
-   16  git branch -d newBranch
-   17  git add mergefile.txt
-   18  git commit -m "New line added"
-   19  git add mergefile.txt
-   20  git commit -m "Second line added"
-   21  git add mergefile.txt
-   22  git commit -m "Second line added"
-   23  git push
-   24  git log
-   25  git revert 1b5564d77ef3fdfcf6f9ad90108ac1d9a7470be2
-   26  git push
-   27  git pull origin master
-   28  git checkout -b report
-   29  git branch
-   30  vim README.md
-   31  git log --pretty=format:"%h %ad | %an | %s" --date=short
-   32  vim README.md
-   33  git log --pretty=format:"%h %ad | %an | %s" --date=short
-   34  vim README.md
-   35  git checkout report
-   36  mkdir screenshots/
-   37  ls
-   38  git add screenshots/
-   39  mv ~/Desktop/png/*.png screenshots/
-   40  git add screenshots/*.png
-   41  git commit -m "Screenshots folder created"
-   42  git push
-   43  git push --set-upstream origin report
-   44  git checkout report
-   45  git log --pretty=format:"%h %ad | %an | %s" --date=short
-   46  git pull
-   47  git log --pretty=format:"%h %ad | %an | %s" --date=short
-   48  vim README.md
-   49  vim README.md
-   50  git add README.md
-   51  git commit -m "README.md updated"
-   52  git push
-   53  history
+    10  git show
+    11  git checkout master
+    12  git pull origin master
+    13  git merge newBranch
+    14  git push
+    15  git checkout master
+    16  git branch -d newBranch
+    17  git add mergefile.txt
+    18  git commit -m "New line added"
+    19  git add mergefile.txt
+    20  git commit -m "Second line added"
+    21  git add mergefile.txt
+    22  git commit -m "Second line added"
+    23  git push
+    24  git log
+    25  git revert 1b5564d77ef3fdfcf6f9ad90108ac1d9a7470be2
+    26  git push
+    27  git pull origin master
+    28  git checkout -b report
+    29  git branch
+    30  vim README.md
+    31  git log --pretty=format:"%h %ad | %an | %s" --date=short
+    32  vim README.md
+    33  git log --pretty=format:"%h %ad | %an | %s" --date=short
+    34  vim README.md
+    35  git checkout report
+    36  mkdir screenshots/
+    37  ls
+    38  git add screenshots/
+    39  mv ~/Desktop/png/*.png screenshots/
+    40  git add screenshots/*.png
+    41  git commit -m "Screenshots folder created"
+    42  git push
+    43  git push --set-upstream origin report
+    44  git checkout report
+    45  git log --pretty=format:"%h %ad | %an | %s" --date=short
+    46  git pull
+    47  git log --pretty=format:"%h %ad | %an | %s" --date=short
+    48  vim README.md
+    49  vim README.md
+    50  git add README.md
+    51  git commit -m "README.md updated"
+    52  git push
+    53  history
